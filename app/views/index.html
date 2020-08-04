@@ -1,5 +1,5 @@
 
-{% extends "layout.html" %}
+{% extends "layout-landing-page.html" %}
 
 {% block pageTitle %}
   {{ serviceName }}
@@ -10,13 +10,22 @@
 {% endblock %}
 
 {% block content %}
-
+  
   <div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-third">
+      {% include "./partials/landing-page/_nhs-notice.html" %}
+      {% include "./partials/landing-page/_find-support-notice.html" %}
+    </div>
     <div class="govuk-grid-column-two-thirds">
-      <h1 class="govuk-heading-xl">
-        {{ serviceName }}
-      </h1>
-      
+      <h2 class="app-c-heading app-c-heading--font-size-27 govuk-!-margin-bottom-3">Guidance and support</h2>
+      <!-- accordion -->
+      <p class="govuk-body">
+        See specific guidance for <a class="govuk-link" href="/guidance/coronavirus-covid-19-information-for-individuals-and-businesses-in-scotland">Scotland</a>, <a class="govuk-link" href="https://gov.wales/coronavirus">Wales</a> and <a class="govuk-link" href="https://www.nidirect.gov.uk/campaigns/coronavirus-covid-19">Northern Ireland</a>
+      </p>
+      {% include "./partials/landing-page/_announcements.html" %}
+      {% include "./partials/landing-page/_press-conference.html" %}
+      {% include "./partials/landing-page/_additional-information.html" %}
+      {% include "./partials/landing-page/_stay-up-to-date.html" %}
     </div>
   </div>
 
