@@ -1,0 +1,6 @@
+applications:
+  - name: govuk-coronavirus-landing-page
+    buildpacks:
+      - nodejs_buildpack
+    env:
+      USERNAME: betademo
