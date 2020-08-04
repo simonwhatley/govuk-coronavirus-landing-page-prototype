@@ -1,0 +1,34 @@
+---
+content:
+  title: "Coronavirus (COVID-19): Business support"
+  meta_description: "Get coronavirus (COVID-19) support for your business or if you’re self-employed, and find out how to keep your business and your employees safe"
+  page_title: "Business support"
+  header_section:
+    pretext: Coronavirus (COVID-19) support is available to businesses
+    list:
+      - Loans, tax relief and cash grants are available
+      - Employers can apply for staff to get up to 80% pay if they can’t work
+      - Self-employed people can receive up to £2,500 per month in grants for at least 3 months
+  guidance_section:
+    header: What you can do now
+    list:
+      - text: "Reopen your business safely during coronavirus (COVID-19)"
+        url: /coronavirus-business-reopening
+      - text: Find out what financial support schemes you may be eligible for
+        url: /business-coronavirus-support-finder
+      - text: Find out how to apply for a grant if you’re self-employed
+        url: /guidance/claim-a-grant-through-the-coronavirus-covid-19-self-employment-income-support-scheme
+  sections_heading: "Guidance and support"
+  # sections are edited in https://collections-publisher.publishing.service.gov.uk/coronavirus/business
+  sections:
+  topic_section:
+    header: "All coronavirus business support information on GOV.UK"
+    links:
+      - label: "Guidance"
+        url: "/search/all?level_one_taxon=5b7b9532-a775-4bd2-a3aa-6ce380184b6c&level_two_taxon=65666cdf-b177-4d79-9687-b9c32805e450&content_purpose_supergroup%5B%5D=guidance_and_regulation&order=most-viewed"
+      - label: "News"
+        url: "/search/all?level_one_taxon=5b7b9532-a775-4bd2-a3aa-6ce380184b6c&level_two_taxon=65666cdf-b177-4d79-9687-b9c32805e450&content_purpose_supergroup%5B%5D=news_and_communications&order=updated-newest"
+  notifications:
+    intro: "Stay up to date with GOV.UK"
+    email_link: "Sign up to get emails when we add new coronavirus business support information"
+    email_url: "/email-signup?topic=/coronavirus-taxon/businesses-and-self-employed-people"
