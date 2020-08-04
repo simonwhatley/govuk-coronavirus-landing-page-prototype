@@ -1,0 +1,62 @@
+{#- We can't mount GOV.UK Frontend's assets at root as it's done automatically by the extensions framework. -#}
+{%- set assetPath = '/govuk/assets' -%}
+
+{% extends "govuk/template.njk" %}
+
+{% from "govuk/components/accordion/macro.njk" import govukAccordion %}
+{% from "govuk/components/phase-banner/macro.njk" import govukPhaseBanner %}
+
+{%- from "govuk-pub/components/action-link/macro.njk" import govukPubActionLink %}
+{%- from "govuk-pub/components/feedback/macro.njk" import govukPubFeedback %}
+
+{% from "./components/signup-link/macro.njk" import appSignupLink %}
+
+{% block head %}
+  {% include "includes/head.html" %}
+{% endblock %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block header %}
+  {% include "includes/cookie-banner.html" %}
+  {# Set serviceName in config.js. #}
+  {{ govukHeader({
+    homepageUrl: "/",
+    serviceUrl: "/",
+    containerClasses: "govuk-width-container govuk-header__container--no-border-bottom"
+  }) }}
+  {% include "./partials/hubs/" + hub + "/_page-header.html" %}
+{% endblock %}
+
+{% set mainClasses = mainClasses | default("govuk-main-wrapper--auto-spacing") %}
+
+{% if useAutoStoreData %}
+  {% block footer %}
+    {{ govukPubFeedback({
+      attributes: {
+        id: "feedback"
+      },
+      classes: "govuk-width-container"
+    }) }}
+    {{ govukFooter({
+      meta: {
+        items: [
+          {
+            href: "/prototype-admin/clear-data",
+            text: "Clear data"
+          }
+        ]
+      }
+    }) }}
+  {% endblock %}
+{% endif %}
+
+{% block bodyEnd %}
+  {% block scripts %}
+    {% include "includes/scripts.html" %}
+    {% block pageScripts %}{% endblock %}
+  {% endblock %}
+  <!-- GOV.UK Prototype Kit {{releaseVersion}} -->
+{% endblock %}

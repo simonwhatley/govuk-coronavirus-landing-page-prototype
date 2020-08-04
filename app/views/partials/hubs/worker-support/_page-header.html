@@ -1,0 +1,64 @@
+<header class="covid__page-header covid__page-header--business">
+  <div class="govuk-width-container">
+    <div class="app-c-breadcrumbs govuk-breadcrumbs app-c-breadcrumbs--collapse-on-mobile app-c-breadcrumbs--inverse">
+      <ol class="govuk-breadcrumbs__list">
+        <li class="govuk-breadcrumbs__list-item" aria-current="false">
+          <a class="govuk-breadcrumbs__link" aria-current="false" href="/">Home</a>
+        </li>
+      </ol>
+    </div>
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <div class="app-c-title app-c-title--inverse govuk-!-margin-top-4 govuk-!-margin-bottom-0">
+          <span class="govuk-caption-xl app-c-title__context">
+            Part of <a href="/coronavirus" class="govuk-link covid__page-header-link">Coronavirus (COVID-19)</a>
+          </span>
+          <h1 class="app-c-title__text">
+            Work and financial support
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="covid__page-header-light covid__page-header-light--hub">
+    <div class="govuk-width-container">
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <h2 class="app-c-heading govuk-heading-s app-c-heading--inverse govuk-!-margin-bottom-3">Coronavirus (COVID-19) support is available</h2>
+          <ul class="covid__list covid__list--header">
+            <li class="covid__list-item">some workplaces are starting to open - with social distancing</li>
+            <li class="covid__list-item">plan your journey to avoid crowds</li>
+            <li class="covid__list-item">financial support is available if you cannot work</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="covid__page-guidance">
+    <div class="govuk-width-container">
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <h2 class="app-c-heading govuk-heading-s govuk-!-margin-bottom-5">What you can do now</h2>
+          <ul class="covid__list govuk-!-margin-bottom-8 govuk-!-padding-left-0">
+            <li class="covid__list-item">
+              <div class="govuk-pub-action-link govuk-pub-action-link--dark-icon govuk-!-margin-bottom-0">
+                <span class="govuk-pub-action-link__link-wrapper">
+                  <a class="govuk-link govuk-pub-action-link__link" href="https://govuk-employee-returning.herokuapp.com/">
+                    Check if you should go back into work
+                  </a>
+                </span>
+              </div>
+            </li>
+          </ul>
+          {{ appSignupLink({
+            herading: {
+              text: "Stay up to date with GOV.UK"
+            },
+            text: "Sign up to get emails when we add new coronavirus worker support information",
+            href: "https://www.gov.uk/email-signup?topic=/coronavirus-taxon/work-financial-support-and-money"
+          }) }}
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

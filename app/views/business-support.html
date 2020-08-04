@@ -1,0 +1,23 @@
+{% set hub = 'business-support' %}
+
+{% extends "layout-hub.html" %}
+
+{% block pageTitle %}
+  Coronavirus (COVID-19): Business support - GOV.UK
+{% endblock %}
+
+{% block beforeContent %}
+{#% include "./partials/_phase-banner.html" %#}
+{% endblock %}
+
+{% block content %}
+  
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h2 class="app-c-heading app-c-heading--font-size-27 govuk-!-margin-bottom-3">Guidance and support</h2>
+      {% include "./partials/hubs/" + hub + "/_accordion.html" %}
+      {% include "./partials/hubs/" + hub + "/_additional-information.html" %}
+    </div>
+  </div>
+
+{% endblock %}
