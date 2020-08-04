@@ -27,7 +27,7 @@
     serviceUrl: "/",
     containerClasses: "govuk-width-container govuk-header__container--no-border-bottom"
   }) }}
-  {% include "./partials/landing-page/_page-header.html" %}
+  {% include "./partials/hubs/" + hub + "/_page-header.html" %}
 {% endblock %}
 
 {% set mainClasses = mainClasses | default("govuk-main-wrapper--auto-spacing") %}
