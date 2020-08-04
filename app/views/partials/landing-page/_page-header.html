@@ -51,21 +51,14 @@
       <div class="govuk-grid-row covid__action-link-wrapper">
         <div class="govuk-grid-column-two-thirds">
           
-          {#{ govukPubActionLink({
+          {{ govukPubActionLink({
             heading: {
-              href: 'Read more about what you can and <span class="govuk-pub-action-link__nowrap-text">cannot do</span>',
+              html: 'Read more about what you can and <span class="govuk-pub-action-link__nowrap-text">cannot do</span>',
               href: "https://www.gov.uk/government/publications/coronavirus-outbreak-faqs-what-you-can-and-cant-do/coronavirus-outbreak-faqs-what-you-can-and-cant-do"
             },
             classes: "govuk-pub-action-link--light-text"
-          }) }#}
+          }) }}
           
-          <div class="govuk-pub-action-link govuk-pub-action-link--light-text govuk-!-margin-bottom-0">
-            <span class="govuk-pub-action-link__link-wrapper">
-              <a class="govuk-link govuk-pub-action-link__link" href="/government/publications/coronavirus-outbreak-faqs-what-you-can-and-cant-do/coronavirus-outbreak-faqs-what-you-can-and-cant-do">
-                Read more about what you can and <span class="govuk-pub-action-link__nowrap-text">cannot do</span>
-              </a>
-            </span>
-          </div>
         </div>
       </div>
     </div>
