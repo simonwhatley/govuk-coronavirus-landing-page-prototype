@@ -1,0 +1,45 @@
+---
+content:
+  title: "Coronavirus (COVID-19): Education and childcare"
+  meta_description: "Coronavirus (COVID-19) information for parents, schools, colleges and universities: closures, exams, learning, health and wellbeing."
+  page_title: "Education and childcare"
+  header_section:
+    pretext: Guidance for teachers, school leaders, carers, parents and students
+    education-pretext:
+      text: Find out when schools are expected to reopen in
+      countries:
+        - label: Scotland
+          url: https://www.gov.scot/news/schools-to-re-open-in-august/
+        - label: Wales
+          url: https://gov.wales/how-schools-will-work-during-coronavirus-pandemic#section-38402
+        - label: Northern Ireland
+          url: https://www.nidirect.gov.uk/articles/coronavirus-covid-19-advice-schools-colleges-and-universities
+    list_heading: "In England:"
+    list:
+      - children in nursery, reception, year 1 and year 6 can return to school
+      - schools remain closed for other year groups, except for children of key workers and vulnerable children
+      - childminders can return to work
+      - schools will reopen to all age groups from September
+  guidance_section:
+    header: What you can do now
+    list:
+      - text: "Protective measures: keep children and staff safe when schools reopen"
+        url: /government/publications/coronavirus-covid-19-implementing-protective-measures-in-education-and-childcare-settings/coronavirus-covid-19-implementing-protective-measures-in-education-and-childcare-settings
+      - text: Safe working in education, childcare and children’s social care
+        url: /government/publications/safe-working-in-education-childcare-and-childrens-social-care
+      - text: Check how childminders, holiday clubs and after school clubs can operate
+        url: /government/publications/guidance-for-parents-and-carers-of-children-attending-out-of-school-settings-during-the-coronavirus-covid-19-outbreak/guidance-for-parents-and-carers-of-children-attending-out-of-school-settings-during-the-coronavirus-covid-19-outbreak
+  sections_heading: "Guidance and support"
+  # sections are edited in https://collections-publisher.publishing.service.gov.uk/coronavirus/education
+  sections:
+  topic_section:
+    header: "All coronavirus education and childcare information on GOV.UK"
+    links:
+      - label: "Guidance"
+        url: "/search/all?level_one_taxon=5b7b9532-a775-4bd2-a3aa-6ce380184b6c&level_two_taxon=272308f4-05c8-4d0d-abc7-b7c2e3ccd249&content_purpose_supergroup%5B%5D=guidance_and_regulation&order=most-viewed"
+      - label: "News"
+        url: "/search/all?level_one_taxon=5b7b9532-a775-4bd2-a3aa-6ce380184b6c&level_two_taxon=272308f4-05c8-4d0d-abc7-b7c2e3ccd249&content_purpose_supergroup%5B%5D=news_and_communications&order=updated-newest"
+  notifications:
+    intro: "Stay up to date with GOV.UK"
+    email_link: "Sign up to get emails when we add new coronavirus education and childcare information"
+    email_url: "/email-signup?topic=/coronavirus-taxon/education-and-childcare"

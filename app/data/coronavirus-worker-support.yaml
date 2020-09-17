@@ -1,0 +1,30 @@
+---
+content:
+  title: "Coronavirus (COVID-19): Work and financial support"
+  meta_description: "Get coronavirus (COVID-19) support if you’re working less or not working - and find out how to stay safe at work."
+  page_title: Work and financial support
+  header_section:
+    pretext: Coronavirus (COVID-19) support is available
+    list:
+      - some workplaces are starting to open - with social distancing
+      - plan your journey to avoid crowds
+      - financial support is available if you cannot work
+  guidance_section:
+    header: What you can do now
+    list:
+      - text: Check if you should go back into work
+        url: /coronavirus-employee-risk-assessment
+  sections_heading: "Guidance and support"
+  # sections are edited in https://collections-publisher.publishing.service.gov.uk/coronavirus/workers
+  sections:
+  topic_section:
+    header: All coronavirus work and financial support information on GOV.UK
+    links:
+      - label: Guidance
+        url: /search/all?level_one_taxon=5b7b9532-a775-4bd2-a3aa-6ce380184b6c&level_two_taxon=b7f57213-4b16-446d-8ded-81955d782680&content_purpose_supergroup%5B%5D=guidance_and_regulation&order=most-viewed
+      - label: News
+        url: /search/all?level_one_taxon=5b7b9532-a775-4bd2-a3aa-6ce380184b6c&level_two_taxon=b7f57213-4b16-446d-8ded-81955d782680&content_purpose_supergroup%5B%5D=news_and_communications&order=most-viewed
+  notifications:
+    intro: Stay up to date with GOV.UK
+    email_link: Sign up to get emails when we add new coronavirus worker support information
+    email_url: /email-signup?topic=/coronavirus-taxon/work-financial-support-and-money
