@@ -43,3 +43,12 @@ $covid-grey: #272828;
 .app-phase-banner--landing-page {
   margin-top: -40px;
 }
+
+.app-action-link {
+
+  &:before {
+    width: 60px;
+    background-size: 45px auto;
+  }
+
+}
